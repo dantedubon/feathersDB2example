@@ -18,10 +18,10 @@ const config = {
       adapter: 'mydb2Adapter',
       host: 'localhost',
       port: 50001,
-      user: 'ddubon',
-      password: 'FAJARDO2indig',
-      database: 'Indigo',
-      schemaDB2: 'Indigo'
+      user: 'XXXXX',
+      password: 'XXXXXX',
+      database: 'XXXXX',
+      schemaDB2: 'XXXXX'
     }
   },
   defaults: {
