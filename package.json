@@ -1,0 +1,45 @@
+{
+  "name": "feathersdb2example",
+  "version": "1.0.0",
+  "description": "Example of using feathers with waterline db2",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run compileDb2Example && npm run runDb2Example",
+    "compileDb2Example": "babel index.js --out-file build/indexDb2.js",
+    "compileMySqlExample":"babel index.js --out-file build/indexMySql.js",
+    "runDb2Example": "node build/indexDb2.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dantedubon/feathersDB2example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dantedubon/feathersDB2example/issues"
+  },
+  "homepage": "https://github.com/dantedubon/feathersDB2example#readme",
+  "dependencies": {
+    "feathers-errors": "^2.0.2",
+    "feathers-query-filters": "^2.0.0",
+    "lodash.omit": "^4.3.0",
+    "uberproto": "^1.1.2",
+    "waterline-errors": "^0.10.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.2.0",
+    "babel-core": "^6.2.1",
+    "babel-plugin-add-module-exports": "^0.2.0",
+    "babel-plugin-transform-object-assign": "^6.1.18",
+    "babel-preset-es2015": "^6.14.0",
+    "body-parser": "^1.14.1",
+    "feathers": "^2.0.0",
+    "feathers-rest": "^1.1.1",
+    "feathers-service-tests": "^0.6.1",
+    "jshint": "^2.8.0",
+    "sails-db2": "0.0.8",
+    "sails-disk": "^0.10.8",
+    "sails-mysql": "0.12.2",
+    "waterline": "^0.12.1"
+  }
+}
